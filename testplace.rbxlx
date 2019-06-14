@@ -1,0 +1,795 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<External>null</External>
+	<External>nil</External>
+	<Item class="Workspace" referent="12">
+		<Properties>
+			<bool name="AllowThirdPartySales">false</bool>
+			<token name="AutoJointsMode">0</token>
+			<string name="CollisionGroups">Default^0^1</string>
+			<Ref name="CurrentCamera">RBXC2F6EB3900D249C9AF14DE3EC7F69C49</Ref>
+			<double name="DistributedGameTime">0</double>
+			<bool name="ExplicitAutoJoints">true</bool>
+			<float name="FallenPartsDestroyHeight">-500</float>
+			<bool name="FilteringEnabled">true</bool>
+			<float name="Gravity">196.199997</float>
+			<CoordinateFrame name="ModelInPrimary">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<R00>1</R00>
+				<R01>0</R01>
+				<R02>0</R02>
+				<R10>0</R10>
+				<R11>1</R11>
+				<R12>0</R12>
+				<R20>0</R20>
+				<R21>0</R21>
+				<R22>1</R22>
+			</CoordinateFrame>
+			<string name="Name">Workspace</string>
+			<Ref name="PrimaryPart">null</Ref>
+			<bool name="StreamingEnabled">false</bool>
+			<int name="StreamingMinRadius">64</int>
+			<token name="StreamingPauseMode">0</token>
+			<int name="StreamingTargetRadius">1024</int>
+			<BinaryString name="Tags"></BinaryString>
+			<bool name="TemporaryLegacyPhysicsSolverOverrideStreaming">false</bool>
+			<bool name="TerrainWeldsFixed">true</bool>
+		</Properties>
+		<Item class="Camera" referent="RBXC2F6EB3900D249C9AF14DE3EC7F69C49">
+			<Properties>
+				<CoordinateFrame name="CFrame">
+					<X>-62.4867401</X>
+					<Y>21.5452213</Y>
+					<Z>77.6325226</Z>
+					<R00>0.783173859</R00>
+					<R01>0.175678894</R01>
+					<R02>-0.596469402</R02>
+					<R10>-0</R10>
+					<R11>0.959258139</R11>
+					<R12>0.2825315</R12>
+					<R20>0.621802866</R20>
+					<R21>-0.221271291</R21>
+					<R22>0.751265824</R22>
+				</CoordinateFrame>
+				<Ref name="CameraSubject">null</Ref>
+				<token name="CameraType">0</token>
+				<float name="FieldOfView">70</float>
+				<CoordinateFrame name="Focus">
+					<X>-61.2938004</X>
+					<Y>20.9801579</Y>
+					<Z>76.1299896</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="HeadLocked">true</bool>
+				<float name="HeadScale">1</float>
+				<string name="Name">Camera</string>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+		</Item>
+		<Item class="Part" referent="13">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">4</token>
+				<token name="BottomSurfaceInput">0</token>
+				<CoordinateFrame name="CFrame">
+					<X>0</X>
+					<Y>-10</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<bool name="CastShadow">true</bool>
+				<int name="CollisionGroupId">0</int>
+				<Color3uint8 name="Color3uint8">4280778310</Color3uint8>
+				<PhysicalProperties name="CustomPhysicalProperties">
+					<CustomPhysics>false</CustomPhysics>
+				</PhysicalProperties>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">true</bool>
+				<bool name="Massless">false</bool>
+				<token name="Material">256</token>
+				<string name="Name">Baseplate</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<int name="RootPriority">0</int>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<BinaryString name="Tags"></BinaryString>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">3</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">1</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>512</X>
+					<Y>20</Y>
+					<Z>512</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="Terrain" referent="RBX2FBB7F3A9CD24531BDC5FFD8FEBC70A8">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">4</token>
+				<token name="BottomSurfaceInput">0</token>
+				<CoordinateFrame name="CFrame">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<bool name="CastShadow">true</bool>
+				<int name="CollisionGroupId">0</int>
+				<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+				<PhysicalProperties name="CustomPhysicalProperties">
+					<CustomPhysics>false</CustomPhysics>
+				</PhysicalProperties>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">true</bool>
+				<bool name="Massless">false</bool>
+				<token name="Material">256</token>
+				<BinaryString name="MaterialColors"><![CDATA[AAAAAAAAan8/P39rf2Y/ilY+j35fi21PZmxvZbDqw8faiVpHOi4kHh4lZlw76JxKc3trhHta
+gcLgc4RKxr21zq2UlJSM]]></BinaryString>
+				<string name="Name">Terrain</string>
+				<BinaryString name="PhysicsGrid">AgMAAAAAAAAAAAAAAAA=</BinaryString>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<int name="RootPriority">0</int>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<BinaryString name="SmoothGrid">AQU=</BinaryString>
+				<BinaryString name="Tags"></BinaryString>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">3</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<Color3 name="WaterColor">
+					<R>0.0500000007</R>
+					<G>0.330000013</G>
+					<B>0.360000014</B>
+				</Color3>
+				<float name="WaterReflectance">1</float>
+				<float name="WaterTransparency">0.300000012</float>
+				<float name="WaterWaveSize">0.150000006</float>
+				<float name="WaterWaveSpeed">10</float>
+				<Vector3 name="size">
+					<X>2044</X>
+					<Y>252</Y>
+					<Z>2044</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="SoundService" referent="11">
+		<Properties>
+			<token name="AmbientReverb">0</token>
+			<float name="DistanceFactor">3.32999992</float>
+			<float name="DopplerScale">1</float>
+			<string name="Name">SoundService</string>
+			<bool name="RespectFilteringEnabled">true</bool>
+			<float name="RolloffScale">1</float>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="NonReplicatedCSGDictionaryService" referent="RBXEF03CDA1206F41B3B680FEBADCA4DA13">
+		<Properties>
+			<string name="Name">NonReplicatedCSGDictionaryService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="CSGDictionaryService" referent="RBX80B0785DF42C4268AEC9ADBE8CC7A8DD">
+		<Properties>
+			<string name="Name">CSGDictionaryService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Chat" referent="RBXFAC6BA9A1EE04439BDDC86AFE9682DBE">
+		<Properties>
+			<bool name="BubbleChatEnabled">false</bool>
+			<bool name="LoadDefaultChat">true</bool>
+			<string name="Name">Chat</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="TimerService" referent="RBXE102D2BFF7A64877864632C8E84415FC">
+		<Properties>
+			<string name="Name">Instance</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Players" referent="RBXA050EA650F40483D96EF48E279913A24">
+		<Properties>
+			<bool name="CharacterAutoLoads">true</bool>
+			<int name="MaxPlayersInternal">12</int>
+			<string name="Name">Players</string>
+			<int name="PreferredPlayersInternal">0</int>
+			<float name="RespawnTime">5</float>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="ReplicatedFirst" referent="RBX3BC0FC0E6E9B42C8B59610B1BDE7E727">
+		<Properties>
+			<string name="Name">ReplicatedFirst</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="TweenService" referent="RBX9270E4DE84F148898EFBEAC9D59B8646">
+		<Properties>
+			<string name="Name">TweenService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="StarterPlayer" referent="RBXD93651594C084CC8A2BE586850F5E914">
+		<Properties>
+			<bool name="AllowCustomAnimations">true</bool>
+			<bool name="AutoJumpEnabled">true</bool>
+			<float name="CameraMaxZoomDistance">400</float>
+			<float name="CameraMinZoomDistance">0.5</float>
+			<token name="CameraMode">0</token>
+			<float name="CharacterJumpHeight">7.19999981</float>
+			<float name="CharacterJumpPower">50</float>
+			<float name="CharacterMaxSlopeAngle">89</float>
+			<bool name="CharacterUseJumpPower">true</bool>
+			<float name="CharacterWalkSpeed">16</float>
+			<token name="DevCameraOcclusionMode">0</token>
+			<token name="DevComputerCameraMovementMode">0</token>
+			<token name="DevComputerMovementMode">0</token>
+			<token name="DevTouchCameraMovementMode">0</token>
+			<token name="DevTouchMovementMode">0</token>
+			<bool name="EnableMouseLockOption">true</bool>
+			<int64 name="GameSettingsAssetIDFace">0</int64>
+			<int64 name="GameSettingsAssetIDHead">0</int64>
+			<int64 name="GameSettingsAssetIDLeftArm">0</int64>
+			<int64 name="GameSettingsAssetIDLeftLeg">0</int64>
+			<int64 name="GameSettingsAssetIDPants">0</int64>
+			<int64 name="GameSettingsAssetIDRightArm">0</int64>
+			<int64 name="GameSettingsAssetIDRightLeg">0</int64>
+			<int64 name="GameSettingsAssetIDShirt">0</int64>
+			<int64 name="GameSettingsAssetIDTeeShirt">0</int64>
+			<int64 name="GameSettingsAssetIDTorso">0</int64>
+			<token name="GameSettingsAvatar">1</token>
+			<token name="GameSettingsR15Collision">0</token>
+			<NumberRange name="GameSettingsScaleRangeBodyType">0 1 </NumberRange>
+			<NumberRange name="GameSettingsScaleRangeHead">0.95 1 </NumberRange>
+			<NumberRange name="GameSettingsScaleRangeHeight">0.9 1.05 </NumberRange>
+			<NumberRange name="GameSettingsScaleRangeProportion">0 1 </NumberRange>
+			<NumberRange name="GameSettingsScaleRangeWidth">0.7 1 </NumberRange>
+			<float name="HealthDisplayDistance">100</float>
+			<bool name="LoadCharacterAppearance">true</bool>
+			<string name="Name">StarterPlayer</string>
+			<float name="NameDisplayDistance">100</float>
+			<BinaryString name="Tags"></BinaryString>
+			<bool name="UserEmotesEnabled">true</bool>
+		</Properties>
+		<Item class="StarterPlayerScripts" referent="RBXB810DF52363D479B854AFC68B74215D5">
+			<Properties>
+				<string name="Name">StarterPlayerScripts</string>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+		</Item>
+		<Item class="StarterCharacterScripts" referent="RBX10CD1ACDDDD64E9496045491574B227C">
+			<Properties>
+				<string name="Name">StarterCharacterScripts</string>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="StarterPack" referent="RBXE6A0D91D16934C08B3B6FD5F59B93079">
+		<Properties>
+			<string name="Name">StarterPack</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="StarterGui" referent="RBX14FE59EBD3FC4F17BEB4AF0A299A4B13">
+		<Properties>
+			<string name="Name">StarterGui</string>
+			<bool name="ResetPlayerGuiOnSpawn">true</bool>
+			<token name="ScreenOrientation">2</token>
+			<bool name="ShowDevelopmentGui">true</bool>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="LocalizationService" referent="RBX7320A75E17D14C87B718BB1F7FEFC06E">
+		<Properties>
+			<string name="Name">LocalizationService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="TeleportService" referent="RBX07386C71C34E45EA927C4861CF318890">
+		<Properties>
+			<string name="Name">Teleport Service</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="CollectionService" referent="RBX5466D1D48457467CA180B1481F39965D">
+		<Properties>
+			<string name="Name">CollectionService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="PhysicsService" referent="RBX3D2749D41CAB4759A41519445663FF53">
+		<Properties>
+			<string name="Name">PhysicsService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Geometry" referent="RBX96447A0E13CD405589A9718DCF911282">
+		<Properties>
+			<string name="Name">Geometry</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="InsertService" referent="RBX0F319A2DF7BB403E8CD5A3E0512D3133">
+		<Properties>
+			<bool name="AllowClientInsertModels">false</bool>
+			<bool name="AllowInsertFreeModels">false</bool>
+			<string name="Name">InsertService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="GamePassService" referent="RBXA2262298A12F4B91A1172278F74AE3B5">
+		<Properties>
+			<string name="Name">GamePassService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Debris" referent="RBX176097F865EA4EEEA1631A6B40593D07">
+		<Properties>
+			<int name="MaxItems">1000</int>
+			<string name="Name">Debris</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="CookiesService" referent="RBX97316A8615A64A55B4DD994E5F0868C3">
+		<Properties>
+			<string name="Name">CookiesService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="VRService" referent="RBX34EB36C733E843B78B59652257CA00FF">
+		<Properties>
+			<string name="Name">VRService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="ContextActionService" referent="RBX7282EC4D4CD040AF8E588D42347A32CE">
+		<Properties>
+			<string name="Name">ContextActionService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="ScriptService" referent="RBX47D91C1820E6435F968027EC3C13D7E8">
+		<Properties>
+			<string name="Name">Instance</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="AssetService" referent="RBXAC343E600D5F4BD397118562A01254AB">
+		<Properties>
+			<string name="Name">AssetService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="TouchInputService" referent="RBX300B6F4DE0374DD39F3414DD8CF43D9C">
+		<Properties>
+			<string name="Name">TouchInputService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Selection" referent="RBX0D56B28A3FE640328275C73698188A94">
+		<Properties>
+			<string name="Name">Selection</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="ServerScriptService" referent="9">
+		<Properties>
+			<bool name="LoadStringEnabled">false</bool>
+			<string name="Name">ServerScriptService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+		<Item class="Script" referent="10">
+			<Properties>
+				<bool name="Disabled">false</bool>
+				<Content name="LinkedSource"><null></null></Content>
+				<string name="Name">Test</string>
+				<string name="ScriptGuid">{53EF4D03-BE2B-4E3B-A821-82D8D88F8DC1}</string>
+				<ProtectedString name="Source"><![CDATA[local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local lib = ReplicatedStorage:WaitForChild("lib")
+
+local PizzaAlpaca = require(lib:WaitForChild("PizzaAlpaca"))
+
+local TestModule = PizzaAlpaca.GameModule:extend("TestModule")
+
+function TestModule:preInit()
+    print("testmodule pre-initialized")
+end
+
+function TestModule:init()
+    print("testmodule initialized")
+end
+
+function TestModule:postInit()
+    print("testmodule post-initialized")
+end
+
+local core = PizzaAlpaca.GameCore.new()
+
+core:registerModule(TestModule)
+core:registerModule("invalid")
+
+core:load()]]></ProtectedString>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="ServerStorage" referent="RBXB3A20CDB59F843A1BAD48E3885C6A6B1">
+		<Properties>
+			<string name="Name">ServerStorage</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="ReplicatedStorage" referent="2">
+		<Properties>
+			<string name="Name">ReplicatedStorage</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+		<Item class="Folder" referent="3">
+			<Properties>
+				<string name="Name">lib</string>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+			<Item class="ModuleScript" referent="4">
+				<Properties>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">PizzaAlpaca</string>
+					<string name="ScriptGuid">{C21E6DC9-A410-46C4-9932-D09ACDFE734F}</string>
+					<ProtectedString name="Source"><![CDATA[return {
+    GameModule = require(script.GameModule),
+    GameCore = require(script.GameCore),
+}]]></ProtectedString>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+				<Item class="ModuleScript" referent="5">
+					<Properties>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">GameCore</string>
+						<string name="ScriptGuid">{37AE6B5B-8142-432D-B433-F8FE490B242D}</string>
+						<ProtectedString name="Source"><![CDATA[local src = script.Parent
+
+local compileSubmodules = require(src:WaitForChild("compileSubmodules"))
+local callOnAll = require(src:WaitForChild("callOnAll"))
+
+local GameCore = {}
+
+local errors = {
+    invalidArgument = "Invalid argument: [%s]. expected: [%s]."
+}
+
+local function instanceModule(class, core)
+    return setmetatable({
+        core = core
+    },{__index = class, __tostring = getmetatable(class).__tostring})
+end
+
+function GameCore.new()
+    local core = setmetatable({
+        _moduleClasses = {},
+        _modules = {},
+    }, {__index = GameCore})
+
+    return core
+end
+
+function GameCore:registerModule(moduleClass)
+    local moduleClassType = typeof(moduleClass)
+
+    if moduleClassType == "table" then
+        assert(moduleClass.__gamemodule, 
+            errors.invalidArgument:format(
+                tostring(moduleClass),
+                "GameModule class"
+            ),
+            2
+        )
+        self._moduleClasses[moduleClass.name] = moduleClass
+    elseif moduleClassType == "Instance" then
+        assert(moduleClass:IsA("ModuleScript"),
+            errors.invalidArgument:format(
+                moduleClass:GetFullName(),
+                "ModuleScript"
+            ),
+            2
+        )
+
+        local requiredModuleClass = require(moduleClass)
+        self:registerModule(requiredModuleClass) -- register the class
+    else
+        error(errors.invalidArgument:format(
+            tostring(moduleClass),
+            "GameModule class or ModuleScipt of GameModule class"),
+            2
+        )
+    end
+end
+
+function GameCore:registerChildrenAsModules(root)
+    for _, module in pairs(compileSubmodules(root,true)) do
+        self:registerModule(module)
+    end
+end
+
+function GameCore:instanceAllModules()
+    -- instance modules
+    for name, class in pairs(self._moduleClasses) do
+        self._modules[name] = instanceModule(class, self)
+    end
+end
+
+function GameCore:getModule(name)
+    if not self._modules[name] then
+        warn(("No such module %s"):format(tostring(name)))
+    end
+    return self._modules[name]
+end
+
+function GameCore:callOnModules(methodName)
+    callOnAll(self._modules, methodName)
+end
+
+function GameCore:load()
+    self:instanceAllModules()
+    self:callOnModules("preInit")
+    self:callOnModules("init")
+    self:callOnModules("postInit")
+end
+
+return GameCore]]></ProtectedString>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
+				<Item class="ModuleScript" referent="6">
+					<Properties>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">GameModule</string>
+						<string name="ScriptGuid">{D869675A-7656-47D1-B132-3A592D46FBCB}</string>
+						<ProtectedString name="Source"><![CDATA[-- this type of class extension thing is inspired by Roact's component class, check it out:
+-- https://github.com/Roblox/roact/blob/master/src/Component.lua
+
+local GameModule = {}
+local gameModuleMetatable = {}
+
+function gameModuleMetatable:__tostring()
+    return self.name
+end
+
+function GameModule:extend(name)
+    local newModule = {name = name, __gamemodule = true}
+
+    for k,v in pairs(self) do
+        if k ~= "extend" then -- modules shouldnt extend other modules that's evil please do not do that.
+            newModule[k] = v
+        end
+    end
+
+    setmetatable(newModule, gameModuleMetatable)
+
+    return newModule
+end
+
+-- This is where you setup this module and make it ready for other modules to interact with.
+-- It is not safe to interact with other modules at this step, but you can create references to them
+function GameModule:preInit()
+    return
+end
+
+-- This is where you should do this module's work, setup the behavior
+-- this module is responsible for.
+-- it is safe to interact with other modules at this stage but their behaviors
+-- may not yet be setup. If your module is contingent on another module being
+-- finished setting up its behavior, do that in postInit.
+function GameModule:init()
+    return
+end
+
+-- This is where you should interact with other modules.
+function GameModule:postInit()
+    return
+end
+
+return GameModule]]></ProtectedString>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
+				<Item class="ModuleScript" referent="7">
+					<Properties>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">callOnAll</string>
+						<string name="ScriptGuid">{D30C806C-1A7E-454F-B2FE-B49578E3860F}</string>
+						<ProtectedString name="Source"><![CDATA[return function(table, methodname, ...)
+    for _, v in pairs(table) do
+        v[methodname](v, ...)
+    end
+end]]></ProtectedString>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
+				<Item class="ModuleScript" referent="8">
+					<Properties>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">compileSubmodules</string>
+						<string name="ScriptGuid">{2BD0315F-27FC-47BB-A139-0D86368291E0}</string>
+						<ProtectedString name="Source"><![CDATA[local errors = {
+    IllegalArgument = "Argument 1 must be an instance, got %s",
+}
+
+return function(root, recurseThroughFolders)
+    assert(root, errors.IllegalArgument:format(typeof(root)))
+    assert(typeof(root) == "Instance", errors.IllegalArgument:format(typeof(root)))
+
+    local modules = {}
+
+    local function compileSubmodules(instance)
+        for _, child in pairs(instance:GetChildren()) do
+            if child:IsA("ModuleScript") then
+                local requiredModule = require(child)
+
+                modules[child] = requiredModule
+            elseif child:IsA("Folder") and recurseThroughFolders then
+                compileSubmodules(child)
+            end
+        end
+    end
+
+    compileSubmodules(root)
+
+    return modules
+end]]></ProtectedString>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+	</Item>
+	<Item class="LuaWebService" referent="RBX198BE965CF0C417391585681447D12B3">
+		<Properties>
+			<string name="Name">Instance</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Lighting" referent="1">
+		<Properties>
+			<Color3 name="Ambient">
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+			</Color3>
+			<float name="Brightness">2</float>
+			<Color3 name="ColorShift_Bottom">
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+			</Color3>
+			<Color3 name="ColorShift_Top">
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+			</Color3>
+			<float name="ExposureCompensation">0</float>
+			<Color3 name="FogColor">
+				<R>0.75</R>
+				<G>0.75</G>
+				<B>0.75</B>
+			</Color3>
+			<float name="FogEnd">100000</float>
+			<float name="FogStart">0</float>
+			<float name="GeographicLatitude">41.7332993</float>
+			<bool name="GlobalShadows">true</bool>
+			<bool name="LegacyOutlines">false</bool>
+			<string name="Name">Lighting</string>
+			<Color3 name="OutdoorAmbient">
+				<R>0.5</R>
+				<G>0.5</G>
+				<B>0.5</B>
+			</Color3>
+			<bool name="Outlines">false</bool>
+			<float name="ShadowSoftness">0.5</float>
+			<BinaryString name="Tags"></BinaryString>
+			<token name="Technology">1</token>
+			<string name="TimeOfDay">14:00:00</string>
+		</Properties>
+	</Item>
+	<Item class="HttpService" referent="0">
+		<Properties>
+			<bool name="HttpEnabled">true</bool>
+			<string name="Name">HttpService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="DataStoreService" referent="RBXBDC2F01AB8924C539298F7A08BDB1E5E">
+		<Properties>
+			<bool name="AutomaticRetry">true</bool>
+			<bool name="LegacyNamingScheme">false</bool>
+			<string name="Name">DataStoreService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+</roblox>

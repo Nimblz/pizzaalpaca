@@ -1,0 +1,71 @@
+{
+  "name": "pizzaalpaca-test-place",
+  "tree": {
+    "$className": "DataModel",
+    "HttpService": {
+      "$className": "HttpService",
+      "$properties": {
+        "HttpEnabled": true
+      }
+    },
+    "Lighting": {
+      "$className": "Lighting",
+      "$properties": {
+        "Technology": "Voxel",
+        "Ambient": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "GlobalShadows": true,
+        "Brightness": 2.0,
+        "Outlines": false
+      }
+    },
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "lib": {
+        "$className": "Folder",
+        "PizzaAlpaca" : {
+          "$path": "lib"
+        }
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$path": "test"
+    },
+    "SoundService": {
+      "$className": "SoundService",
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    },
+    "Workspace": {
+      "$className": "Workspace",
+      "$properties": {
+        "FilteringEnabled": true
+      },
+      "Baseplate": {
+        "$className": "Part",
+        "$properties": {
+          "Color": [
+            0.15686, 0.49803, 0.27843
+          ],
+          "Position": [
+            0.0,
+            -10.0,
+            0.0
+          ],
+          "Anchored": true,
+          "Locked": true,
+          "Size": [
+            512.0,
+            20.0,
+            512.0
+          ]
+        }
+      }
+    }
+  }
+}
