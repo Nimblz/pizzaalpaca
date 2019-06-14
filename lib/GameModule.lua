@@ -22,6 +22,11 @@ function GameModule:extend(name)
     return newModule
 end
 
+-- constructor, fired on instantiation, core will be nil.
+function GameModule:create()
+    return
+end
+
 -- This is where you setup this module and make it ready for other modules to interact with.
 -- It is not safe to interact with other modules at this step, but you can create references to them
 function GameModule:preInit()

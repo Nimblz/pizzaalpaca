@@ -66,6 +66,7 @@ function GameCore:instanceAllModules()
     -- instance modules
     for name, class in pairs(self._moduleClasses) do
         self._modules[name] = instanceModule(class, self)
+        self._modules[name]:create()
     end
 end
 
