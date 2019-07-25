@@ -19,6 +19,7 @@ function GameCore.new()
     local core = setmetatable({
         _moduleClasses = {},
         _modules = {},
+        _debugprints = false,
     }, {__index = GameCore})
 
     return core
@@ -57,7 +58,10 @@ function GameCore:registerModule(moduleClass)
 end
 
 function GameCore:registerChildrenAsModules(root)
-    for _, module in pairs(compileSubmodules(root,true)) do
+    for instance, module in pairs(compileSubmodules(root,true)) do
+        if self._debugprints then
+            print("Loading module:", instance)
+        end
         self:registerModule(module)
     end
 end
