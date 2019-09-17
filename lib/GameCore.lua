@@ -60,7 +60,7 @@ end
 function GameCore:registerChildrenAsModules(root)
 
     assert(root and typeof(root) == "Instance" and root:IsA("Folder"),
-        errors.invalidArgument:format(root, "Folder")
+        errors.invalidArgument:format(tostring(root), "Folder")
     )
 
     for instance, module in pairs(compileSubmodules(root,true)) do
