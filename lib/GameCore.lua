@@ -29,7 +29,7 @@ function GameCore:registerModule(moduleClass)
     local moduleClassType = typeof(moduleClass)
 
     if moduleClassType == "table" then
-        assert(moduleClass.__gamemodule, 
+        assert(moduleClass.__gamemodule,
             errors.invalidArgument:format(
                 tostring(moduleClass),
                 "GameModule class"
@@ -58,6 +58,11 @@ function GameCore:registerModule(moduleClass)
 end
 
 function GameCore:registerChildrenAsModules(root)
+
+    assert(root and typeof(root) == "Instance" and root:IsA("Folder"),
+        errors.invalidArgument:format(root, "Folder")
+    )
+
     for instance, module in pairs(compileSubmodules(root,true)) do
         if self._debugprints then
             print("Loading module:", instance)
