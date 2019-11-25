@@ -6,7 +6,8 @@ local callOnAll = require(src:WaitForChild("callOnAll"))
 local GameCore = {}
 
 local errors = {
-    invalidArgument = "Invalid argument: [%s]. expected: [%s]."
+    invalidArgument = "Invalid argument: [%s]. expected: [%s].",
+    alreadyDefined = "Module [%s] has already been defined!"
 }
 
 local function instanceModule(class, core)
@@ -25,7 +26,7 @@ function GameCore.new()
     return core
 end
 
-function GameCore:registerModule(moduleClass)
+function GameCore:registerModule(moduleClass, script)
     local moduleClassType = typeof(moduleClass)
 
     if moduleClassType == "table" then
@@ -36,7 +37,9 @@ function GameCore:registerModule(moduleClass)
             ),
             2
         )
-        self._moduleClasses[moduleClass.name] = moduleClass
+        local className = moduleClass.name
+        assert(self._moduleClasses[className] == nil, errors.alreadyDefined:format(className))
+        self._moduleClasses[className] = moduleClass
     elseif moduleClassType == "Instance" then
         assert(moduleClass:IsA("ModuleScript"),
             errors.invalidArgument:format(
@@ -87,7 +90,11 @@ function GameCore:getModule(name)
 end
 
 function GameCore:callOnModules(methodName)
-    callOnAll(self._modules, methodName)
+    callOnAll(self._modules, methodName, {}, function(key, module)
+        if self._debugprints then
+            print(("Calling [%s] on [%s]"):format(tostring(methodName), tostring(module)))
+        end
+    end)
 end
 
 function GameCore:load()
